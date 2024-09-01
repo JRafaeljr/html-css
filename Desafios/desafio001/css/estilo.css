@@ -1,0 +1,15 @@
+*{
+    background-color: brown;
+    color: white;
+}
+img{
+    border: solid 2px;
+    border-radius: 50%;
+}
+h1, h3{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}

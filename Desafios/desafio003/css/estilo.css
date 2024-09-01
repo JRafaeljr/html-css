@@ -1,0 +1,19 @@
+*{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.frame{
+    display: flex;
+    justify-content: center;
+}
+.home, .curso{
+    display: flex;
+    justify-content: center;
+}
+.imagens{
+    display: flexbox;
+}
+img{
+    padding: 20px;
+}

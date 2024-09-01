@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Catalina;
+    src: url('../fontes/Catalina-Village.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Philosopher;
+    src: url('../fontes/Philosopher-Regular.ttf') format('truetype'), url('../fontes/Philosopher-Italic.ttf') format('truetype'), url('../fontes/Philosopher-Bold.ttf') format('truetype'), url('../fontes/Philosopher-BoldItalic.ttf') format('truetype');
+}
+
+* {
+    padding: 10px;
+}
+
+body {
+    background-image: linear-gradient(to right, #f3d5b5, #e7bc91);
+}
+
+main {
+    width: 800px;
+    background-color: #d9b8c4;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #957186;
+}
+
+a {
+    color: #a47148;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #8d0801;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f07167;
+}
+
+a::before {
+    content: '✔ ';
+}
+
+a::after {
+    content: ' ✔';
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    font: normal normal 3em 'Philosopher', sans-serif;
+}

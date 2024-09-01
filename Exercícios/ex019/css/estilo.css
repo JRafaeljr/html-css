@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Billing;
+    src: url('../fontes/Billing.ttf') format('truetype'), url('../fontes/Billing-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Bethany;
+    src: url('../fontes/Bethany.otf') format('opentype');
+}
+
+* {
+    padding: 10px;
+}
+
+body {
+    background-image: linear-gradient(to right, #eaf4f4, #cce3de);
+    color: #6b9080;
+}
+
+main {
+    font: normal normal 1em 'Billing', serif;
+    width: 800px;
+    margin: auto;
+    background-color: #f6fff8;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+h1 {
+    text-align: center;
+}
+
+#principal {
+    color: #1b4965;
+    background-color: #cae9ff;
+    border-radius: 10px;
+}
+
+.basico {
+    font: normal normal 1.5em 'Bethany', serif;
+    color: #eb5e28;
+}
+
+.intermediario {
+    color: #ffd166;
+}
+
+.avancado {
+    color: #bc4749;
+}
+
+.destaque {
+    background-image: linear-gradient(to right, #d8f3dc, #74c69d);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #2d6a4f;
+}

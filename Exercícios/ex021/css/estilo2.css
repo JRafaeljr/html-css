@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Catalina;
+    src: url('../fontes/Catalina-Village.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Philosopher;
+    src: url('../fontes/Philosopher-Regular.ttf') format('truetype'), url('..//fontes/Philosopher-Italic.ttf') format('truetype'), url('../fontes/Philosopher-Bold.ttf') format('truetype'), url('../fontes/Philosopher-BoldItalic.ttf') format('truetype');
+}
+
+* {
+    padding-top: 10px;
+}
+
+body {
+    background-image: linear-gradient(to right, #dad7cd, #a3b18a);
+    font-family: 'Catalina', sans-serif;
+}
+
+header {
+    background-color: #caf0f8;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #0077b6;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    background-color: #1a659e;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 5px 5px 1px #184b7880;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav > a:hover {
+    color: #9bc53d;
+}
+
+main {
+    background-color: #caf0f8;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #386641;
+    color: white;
+    text-align: center;
+    font-family: Philosopher;
+    padding: 3px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+article {
+    background-color: #D9E8F5;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Philosopher;
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+article > aside {
+    background-color: #adb5bd;
+    padding: 0 0 2px 0;
+    text-align: center;
+}

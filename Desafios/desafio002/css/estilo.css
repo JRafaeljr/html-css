@@ -1,0 +1,12 @@
+*{
+    background-color: rgb(231, 165, 78);
+    color: white;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+img{
+    border-radius: 10px;
+}
