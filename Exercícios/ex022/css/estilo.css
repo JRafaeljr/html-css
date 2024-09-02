@@ -1,0 +1,31 @@
+div.quadrado {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: lightgray;
+    display: inline-block;
+}
+
+body {
+    background-image: url(../imagens/wallpaper001.jpg);
+}
+
+h1 {
+    color: #205BE8;
+    text-align: center;
+}
+
+/* Três maneiras de personalizar o fundo da página: */
+
+div#q1 {
+    background-color: aqua;
+}
+
+div#q2 {
+    background-image: linear-gradient(to right, #20E8B4, #209AE8);
+}
+
+div#q3 {
+    background-image: url('../imagens/pattern003.png');
+}
