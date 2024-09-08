@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Catalina;
+    src: url('/fontes/Catalina-Village.ttf') format(truetype), url('/fontes/Philosopher-Regular.ttf') format(truetype);
+}
+
+body {
+    background-image: linear-gradient(to right, #0CD6FA, #0F8DFA);
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
