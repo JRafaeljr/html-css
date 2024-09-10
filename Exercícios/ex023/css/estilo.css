@@ -16,9 +16,23 @@ table {
     width: 400px;
     text-align: center;
     margin: auto;
+    border-collapse: collapse;
 }
 
 td {
     border: 2px solid black;
-    border-collapse: collapse;
 }
+
+.tabela2 {
+    width: 400px;
+    height: 400px;
+}
+
+.impar {
+    vertical-align: top;
+    background-image: linear-gradient(to right, #FFF0C5, #FFCE26);
+}
+
+.par {
+    vertical-align: bottom;
+    background-image: linear-gradient(to right, #77D9A1, #025918);
