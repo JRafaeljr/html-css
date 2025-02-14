@@ -1,0 +1,14 @@
+Cabeçalho fixo em tabelas grandes:
+CSS:
+ - colocar a tabela com um posicionamento relativo:
+    table {
+        position: relative;
+    }
+ - colocar a th da thead com posição sticky:
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        backgroun-color: black; (aqui colocar a cor usada como background no cabeçalho)
+    }
+
+Mesclagem de células:

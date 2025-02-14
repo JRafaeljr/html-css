@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: brown;
+}
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+}
+caption{
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 10px;
+    background-color: aliceblue;
+}
+td, th {
+    border: 1px solid brown;
+    padding: 10px;
+}
+thead, tfoot {
+    background-color: gray;
+    color: white;
+}
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: black;
+}
+/*
+A pseudo-classe nth-child() faz com que a tabela fique no estilo zebrado, colocando-se nos parênteses 2n. Ou seja ele vai colorir a linha a cada duas linhas. Se fosse 5n seria a cada 5 linhas.
+Exemplo para colorir uma linha de uma cor e outra de outra cor:
+tbody > tr:nth-child(odd) {
+    background-color: blue;
+}
+tbody > tr:nth-child(even) {
+    background-color: yellow;
+}
+Sendo que odd é ímpar e even é par.
+*/
+tbody > tr:nth-child(2n) {
+    background-color: lightgrey;
+}
+.num {
+    text-align: right;
+}
+.porc {
+    text-align: center;
+}
